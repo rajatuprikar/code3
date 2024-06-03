@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "optiva-analytic-demo-new",
+  "private_key_id": "62ab33d63d40f76ddb67a23fe48a432774a9298a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDY8dyh+lBCeK82\n3aYoE8umw0XoyaUx/SYDpMod81SVnPuLVAJpdas38x/GJ1WCh8MXwFczkCUQ+D86\nQUMmYqKeISyLcU9+AqSP8wB7hi16m6f17TrOmxlFgmzGjt0bFm0rWLBK1YVxoSzO\nwrZX29FilY3Wyii3XuGJ9J+TiNgw66vW7YQhJwIIzxkMF64KqcncTU1lpNVAcME5\nUcOrDXJpPJ7mgo/jHQp4AzUKMTFiM9EX/eLzPLypxA8JZfK9Kcd0CPJpleBrCQJl\nrwynWMOin86j8/Yo5LILdsemoVznM0nD1WKw87XSmVATMW/HLh4ubJg/k8usbpoQ\nLxSLKYGFAgMBAAECggEAAVA3hniCN2DNKL8fRCNYioYonG/qEtsmOYPsIFHKi4xT\nfoSv7g0DEBfl85hl3WAuh2yH6p0/CDMEiPj/q9IRi3UGdMKnGUtxTRjKwjSt/k3G\nbsf0oO8R8FiJiYswXftdBlPnX1CbGfTAlXDa0z3WruraXLhFFlUZ9vCW7bj4nBUy\nTNCWu7D6epWQQzQ1RI4fgqCIBlwVQ3q5nwHRm9ITkiR4atqmwoZBzPBvdvadkV7X\nSmWU6Em3ipgH2UpL/sIWtn8joxZ9Dj9TfO8JdzDHgVIc0JxJu+gfT4FODFB2RiOy\nHuhnKBHA59anp91mEkf+VRqELNwh304sUVaM1/eSmQKBgQD+K0/sqe6TZh1qdq6R\nncSdw4imgH6SUEB5nRBm+995bU65vEjZTHkDw6gSM6Lr4lu0xVppTGOyG6ZnE9bc\nR4sBl/K6EUSlzf7950eQjVETvveJ01HaqKjyROSIaPJI5N5A56vXHK4k4Kz3N8td\n/wbsz+/S57fFzEwW06O3lDv8WQKBgQDagehoqorAinhasNo1Qjfh5Myek8d+GVSC\ngBCST5BxLjtJISXMackUSg+0Z9hK/jWRHp4d8zqVPjh4fPdFhtOKR/AQhBzfKM94\noY3HxVhgnwY5s7E1qzwXxOI5CMR5uw1n92iTgFPHFgSMJB1cB6rpCg7mVJibShYs\ncbNpiSEZDQKBgFsVrnjDlSnhiF0k1v58KX/YGNqCZdmNRO3QKZaeYMGlOHc7UGf/\nDccZkNulAZfC8NZhezsNExU673E1HOSoBtq1V1jy40UAA4d+IJle61VGNHOB9W2E\nz7aylauE4H7a9gMQgvZ94rJ4icO2jPzMbfDju7A7NhJ+Wi47/gnF55FRAoGAZHM0\nFGnSP5FoosiKh9FZP0+fgYcOProGT7fv5lMNY/qM5qGGbuJyvhEOBzF2DYOvvHcG\n2V3noJRqAXnxctT4iqlngzA41Z49QoeCVkQyzLhOdFhXLwT5KzQni3CsYgnLr+/c\n83IbEXrdvE8d8CDWQSuOjfR1822ro+LhR7LytEECgYB2dKNEfNmz4dbovcxMSXE2\nTZRtd2aZGtkvtjy1Dt1ymsmD3mjiUz8Zdwj3ZsJklzjWFqGlOVrf3z6gJFtp1Xmd\nHri5KTCzKIYWxMGxXJ/vbwIefZPXOmzRbU27rWLBr3HKHfKwSY31Poh+vgm8CJpa\n7Dnl0x0nFjFGqpZdoJrvpQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform-service-account@optiva-analytic-demo-new.iam.gserviceaccount.com",
+  "client_id": "105010394539173997411",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-service-account%40optiva-analytic-demo-new.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
