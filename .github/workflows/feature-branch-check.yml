@@ -1,27 +1,19 @@
-name: Enforce Feature Branch Merge
+name: Check Branch Name
 
 on:
   pull_request:
-    branches:
-      - main # This workflow only runs when a PR targets the 'main' branch
-    types: [opened, reopened, synchronize] # Trigger on PR creation and updates
 
 jobs:
-  check_source_branch_name:
+  check-branch-name:
     runs-on: ubuntu-latest
     steps:
-      - name: Get source branch name
-        id: get_branch_name
-        run: echo "::set-output name=branch::${{ github.head_ref }}"
-
-      - name: Validate branch starts with 'features/'
+      - name: Ensure branch name starts with 'feature_'
         run: |
-          SOURCE_BRANCH="${{ steps.get_branch_name.outputs.branch }}"
-          echo "Checking source branch: $SOURCE_BRANCH"
-          if [[ "$SOURCE_BRANCH" =~ ^features/ ]]; then
-            echo "Success: Source branch '$SOURCE_BRANCH' follows the 'features/' naming convention."
+          echo "Checking branch name..."
+          BRANCH_NAME=${{ github.head_ref }}
+          if [[ ! "$BRANCH_NAME" =~ ^feature_.*$ ]]; then
+            echo "❌ ERROR: Branch name '$BRANCH_NAME' does not start with 'feature_'."
+            exit 1
           else
-            echo "Failure: Source branch '$SOURCE_BRANCH' does NOT follow the 'features/' naming convention."
-            echo "Only branches starting with 'features/' can be merged into 'main'."
-            exit 1 # This will cause the GitHub Action to fail
+            echo "✅ Branch name is valid: '$BRANCH_NAME'."
           fi
